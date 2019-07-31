@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="haron taiko" />
+    <meta name="description" content="Weight  converter using vanilla js" />
+    <meta name="og:title" content="Weight Converter" />
+    <meta name="og:name" content="Weight Converter" />
+    <meta name="og:url" content="" />
+    <!--include bootstrap-->
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Weight converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center text-white display-3 pt-3">Weight converter</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-10">
+            <input
+              type="number"
+              placeholder=""
+              class="form-control form-control-lg"
+              id="main-input"
+            />
+          </div>
+          <div class="col">
+            <select
+              name="all-units"
+              id="all-units"
+              class="form-control form-control-lg mb-3 bg-info text-white"
+            >
+              <option id="no-item">Select unit</option>
+              <option>Pounds</option>
+              <option>Grams</option>
+              <option>Tonne</option>
+              <option>Kilogram</option>
+              <option>Ounces</option>
+              <option>Miligram</option>
+              <option>Microgram</option>
+            </select>
+            -->
+          </div>
+        </div>
+        <div id="output">
+          <div class="row">
+            <div class="col-6">
+              <div class="card bg-info p-4 mb-1">
+                <div class="card-block">
+                  <h4 class="text-white" id="text-output1"></h4>
+                  <div id="output1"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card bg-primary p-4 mb-1">
+                <div class="card-block">
+                  <h4 class="text-white" id="text-output2"></h4>
+                  <div id="output2"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card bg-success p-4 mb-1">
+                <div class="card-block">
+                  <h4 class="text-white" id="text-output3"></h4>
+                  <div id="output3"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card bg-info p-4 mb-1">
+                <div class="card-block">
+                  <h4 class="text-white" id="text-output4"></h4>
+                  <div id="output4"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card bg-success p-4 mb-1">
+                <div class="card-block">
+                  <h4 class="text-white" id="text-output5"></h4>
+                  <div id="output5"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card bg-primary p-4 mb-1">
+                <div class="card-block">
+                  <h4 class="text-white" id="text-output6"></h4>
+                  <div id="output6"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--include js-->
+    <script src="./js/config.js"></script>
+    <script src="./js/converter.js"></script>
+  </body>
+</html>
